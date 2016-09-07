@@ -1,5 +1,4 @@
-# CKAlertViewController
-初次提交
+# 一款漂亮简洁的弹出框
 
 ![图片1](http://ww2.sinaimg.cn/large/65e4f1e6gw1f7l3xhdxy5j20b40jqgm5.jpg)
 
