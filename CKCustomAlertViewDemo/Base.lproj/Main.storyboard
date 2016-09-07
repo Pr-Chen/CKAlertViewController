@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YP5-YH-fIY">
+                                <rect key="frame" x="200" y="203" width="200" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="MhT-Kf-H4k"/>
+                                    <constraint firstAttribute="width" constant="200" id="bCc-Ic-Noz"/>
+                                </constraints>
+                                <state key="normal" title="警告框1">
+                                    <color key="titleColor" red="1" green="0.16993868350982666" blue="0.36412122845649719" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickShowAlertButton1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q2a-p7-XQV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1N4-O2-Nix">
+                                <rect key="frame" x="200" y="278" width="200" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="ENh-rn-Q8J"/>
+                                    <constraint firstAttribute="height" constant="45" id="ukN-F2-Nc4"/>
+                                </constraints>
+                                <state key="normal" title="警告框2">
+                                    <color key="titleColor" red="0.27760994434356689" green="0.76395148038864136" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickShowAlertButton2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ETx-s7-TnO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRt-ZD-oSW">
+                                <rect key="frame" x="200" y="353" width="200" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="fHd-8q-GCT"/>
+                                    <constraint firstAttribute="width" constant="200" id="vqn-Zh-PSi"/>
+                                </constraints>
+                                <state key="normal" title="警告框3">
+                                    <color key="titleColor" red="0.15457695722579956" green="0.72194355726242065" blue="0.45535343885421753" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickShowAlertButton3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4OU-jy-HtQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XRt-ZD-oSW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Dt-K2-cH9"/>
+                            <constraint firstItem="1N4-O2-Nix" firstAttribute="top" secondItem="YP5-YH-fIY" secondAttribute="bottom" constant="30" id="Dn6-qa-Tab"/>
+                            <constraint firstItem="YP5-YH-fIY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Heu-Yy-BTi"/>
+                            <constraint firstItem="1N4-O2-Nix" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VXo-Hb-vTW"/>
+                            <constraint firstItem="XRt-ZD-oSW" firstAttribute="top" secondItem="1N4-O2-Nix" secondAttribute="bottom" constant="30" id="kv8-46-4HE"/>
+                            <constraint firstItem="1N4-O2-Nix" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vr4-cH-KIg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button1" destination="YP5-YH-fIY" id="k1z-4X-lEg"/>
+                        <outlet property="button2" destination="1N4-O2-Nix" id="e9D-2R-OFd"/>
+                        <outlet property="button3" destination="XRt-ZD-oSW" id="jK8-ka-Age"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
