@@ -1,7 +1,7 @@
 ## 一款漂亮简洁的警告框
 ![](https://ww4.sinaimg.cn/large/006tNbRwly1fda10j9vhbg30850egwsj.gif)
 ![](https://ww1.sinaimg.cn/large/006tNbRwly1fda10qv95qg30850egqjl.gif)
-![](https://ww4.sinaimg.cn/large/006tNbRwly1fda10uezsig30850eg4f2.gif)
+![](https://ww4.sinaimg.cn/large/006tNbRwly1fda135viqlg30820ebwuq.gif)
 
 ## 用法与UIAlertController类似
 ```objective-c
