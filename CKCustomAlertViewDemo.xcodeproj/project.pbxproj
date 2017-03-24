@@ -123,6 +123,7 @@
 				TargetAttributes = {
 					7437521E1D7FEF3000BD2415 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6QEB559EPD;
 					};
 				};
 			};
@@ -279,9 +280,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6QEB559EPD;
 				INFOPLIST_FILE = CKCustomAlertViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MrChen.CKCustomAlertViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MrChen.CKCustomAlertView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -290,9 +292,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6QEB559EPD;
 				INFOPLIST_FILE = CKCustomAlertViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MrChen.CKCustomAlertViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MrChen.CKCustomAlertView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -316,6 +319,7 @@
 				743752381D7FEF3000BD2415 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

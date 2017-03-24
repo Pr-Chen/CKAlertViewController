@@ -19,6 +19,10 @@
 
 @implementation ViewController
 
+- (BOOL)prefersStatusBarHidden {
+    return YES;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -33,6 +37,7 @@
     self.button3.layer.cornerRadius = 22.5;
     self.button3.layer.borderColor = [UIColor colorWithRed:0.15 green:0.68 blue:0.38 alpha:1.00].CGColor;
     self.button3.layer.borderWidth = 1;
+    
 }
 
 - (IBAction)clickShowAlertButton1:(UIButton *)sender {

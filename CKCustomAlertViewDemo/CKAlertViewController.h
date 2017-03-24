@@ -10,9 +10,9 @@
 
 @interface CKAlertAction : NSObject
 
-+ (instancetype)actionWithTitle:(NSString *)title handler:(void (^)(CKAlertAction *action))handler;
-
 @property (nonatomic, readonly) NSString *title;
+
++ (instancetype)actionWithTitle:(NSString *)title handler:(void (^)(CKAlertAction *action))handler;
 
 @end
 

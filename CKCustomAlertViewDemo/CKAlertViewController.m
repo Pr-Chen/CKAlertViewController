@@ -8,13 +8,13 @@
 
 #import "CKAlertViewController.h"
 
-@interface SFHighLightButton : UIButton
+@interface CKHighLightButton : UIButton
 
 @property (strong, nonatomic) UIColor *highlightedColor;
 
 @end
 
-@implementation SFHighLightButton
+@implementation CKHighLightButton
 
 - (void)setHighlighted:(BOOL)highlighted {
     [super setHighlighted:highlighted];
@@ -160,7 +160,7 @@
     
     for (int i=0; i<self.actions.count; i++) {
         
-        SFHighLightButton *btn = [SFHighLightButton new];
+        CKHighLightButton *btn = [CKHighLightButton new];
         btn.tag = 10+i;
         btn.highlightedColor = [UIColor colorWithWhite:0.97 alpha:1];
         btn.titleLabel.font = [UIFont systemFontOfSize:14];
